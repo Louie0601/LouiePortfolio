@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: var(--vulcan);
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.navbar-links_logo img {
+  width: 71px;
+  height: 35px;
+}
+
+.navbar-links_container {
+  display: flex;
+}
+
+.navbar-sign {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links_container p,
+.navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.navbar-links_container p:hover {
+  color: var(--green);
+}
+
+.navbar-menu_container p:hover {
+  color: var(--green);
+}
+
+.navbar-logo {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 24px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.navbar-logo button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 45px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 28px;
+  background: var(--blue);
+  border: none;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+.navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar-menu_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--steelgray);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  height: 80vh;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.navbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar-links_container {
+    display: none;
+  }
+
+  .navbar-logo button {
+    font-size: 0.8rem;
+  }
+
+  .navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .navbar-sign {
+    display: none;
+  }
+
+  .navbar-menu_container {
+    top: 20px;
+  }
+
+  .navbar-menu_container-links-sign {
+    display: block;
+  }
+}

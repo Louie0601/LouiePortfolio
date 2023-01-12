@@ -1,0 +1,70 @@
+.project-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-title p {
+  color: var(--gray);
+}
+
+.project-title h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.project-title h1::after {
+  content: "";
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  height: 0.5rem;
+  width: 5rem;
+  border-radius: 30px;
+  background-color: var(--blue);
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.project-container > * {
+  flex: 1 1 20rem;
+  background-color: var(--steelgray);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 3rem;
+}
+
+.project-container p {
+  color: var(--gray);
+}
+
+.project-cta {
+  width: 300;
+}
+
+.project-container button {
+  flex: 0.6;
+  min-height: 45px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 28px;
+  background: var(--blue);
+  border: none;
+  padding: 0 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}

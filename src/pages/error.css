@@ -1,0 +1,35 @@
+.error-container {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.error-container img {
+  width: 600px;
+}
+
+@media screen and (max-width: 800px) {
+  .error-container img {
+    width: 300px;
+  }
+}
+
+.error-container button {
+  flex: 0.6;
+  width: 150px;
+  min-height: 45px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.05rem;
+  line-height: 28px;
+  background: var(--blue);
+  border: none;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
