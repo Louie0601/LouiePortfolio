@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/LouiePortfolio/static/css/main.4f0783b6.css",
+    "main.js": "/LouiePortfolio/static/js/main.1af7596b.js",
+    "static/js/787.b058c039.chunk.js": "/LouiePortfolio/static/js/787.b058c039.chunk.js",
+    "static/media/port.pdf": "/LouiePortfolio/static/media/port.347a4e36953bcc202db2.pdf",
+    "static/media/course.jpeg": "/LouiePortfolio/static/media/course.fe849d0012670cf7da36.jpeg",
+    "static/media/tec-web.png": "/LouiePortfolio/static/media/tec-web.bd07470e32152e6b9355.png",
+    "static/media/UKMT.png": "/LouiePortfolio/static/media/UKMT.83b0af57afc789a3e23b.png",
+    "static/media/Yunnan.jpg": "/LouiePortfolio/static/media/Yunnan.a8be3642cec10dc9c17f.jpg",
+    "static/media/404.svg": "/LouiePortfolio/static/media/404.debad91bb1dde8e169a40ad07579ccf0.svg",
+    "static/media/face.jpg": "/LouiePortfolio/static/media/face.4b7abe56ae56a9c48cec.jpg",
+    "static/media/hero.svg": "/LouiePortfolio/static/media/hero.139c6ce870b4d133ea7bddf878e4f542.svg",
+    "static/media/contact.svg": "/LouiePortfolio/static/media/contact.76e2db471d0a0623092c1d5092d6e6e6.svg",
+    "static/media/logo.svg": "/LouiePortfolio/static/media/logo.1946cefa789ccf3c9235b329a2bcbdf3.svg",
+    "index.html": "/LouiePortfolio/index.html",
+    "main.4f0783b6.css.map": "/LouiePortfolio/static/css/main.4f0783b6.css.map",
+    "main.1af7596b.js.map": "/LouiePortfolio/static/js/main.1af7596b.js.map",
+    "787.b058c039.chunk.js.map": "/LouiePortfolio/static/js/787.b058c039.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f0783b6.css",
+    "static/js/main.1af7596b.js"
+  ]
+}
