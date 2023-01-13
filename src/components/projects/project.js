@@ -1,9 +1,7 @@
 import React from "react";
 import "./project.css";
-import { useNavigate } from "react-router-dom";
 
 function Project() {
-  let navigate = useNavigate();
   return (
     <div className="project section__padding" id="projects">
       <div className="project-title">
@@ -19,13 +17,7 @@ function Project() {
           <h2>Academic Projects</h2>
           <p>Here are some projects I completed using my academic skills.</p>
           <div className="project-cta">
-            <button
-              onClick={() => {
-                navigate("/academical-projects");
-              }}
-            >
-              See Academic Projects
-            </button>
+            <a href="#adproject">See Academic Projects</a>
           </div>
         </div>
         <div className="project-container_box2">
@@ -35,13 +27,7 @@ function Project() {
             skills.
           </p>
           <div className="project-cta">
-            <button
-              onClick={() => {
-                navigate("/social-projects");
-              }}
-            >
-              See Social Projects
-            </button>
+            <a href="#soproject">See Social Projects</a>
           </div>
         </div>
       </div>

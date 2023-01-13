@@ -5,7 +5,7 @@ import ukmt from "../images/UKMT.png";
 
 function Adproject() {
   return (
-    <div className="innerProject section__padding">
+    <div className="innerProject section__padding" id="adproject">
       <div className="innerProject-title">
         <h1>Academical projects and acheivements</h1>
         <p>Here some of the academical projects and acheivements I acheived</p>

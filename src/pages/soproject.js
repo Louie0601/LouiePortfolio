@@ -5,7 +5,7 @@ import course from "../images/course.jpeg";
 
 function Soproject() {
   return (
-    <div className="innerProject section__padding">
+    <div className="innerProject section__padding" id="soproject">
       <div className="innerProject-title">
         <h1>Social projects and acheivements</h1>
         <p>Here some of the Social projects and acheivements I acheived</p>

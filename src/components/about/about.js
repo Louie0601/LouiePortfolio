@@ -24,7 +24,7 @@ const About = () => (
         </p>
         <div className="about-content__cta">
           <button type="button">
-            <a href="#work">Check out my work</a>
+            <a href="#projects">Check out my work</a>
           </button>
         </div>
       </div>
