@@ -8,7 +8,9 @@ function Adproject() {
     <div className="innerProject section__padding" id="adproject">
       <div className="innerProject-title">
         <h1>Academical projects and acheivements</h1>
-        <p>Here some of the academical projects and acheivements I acheived</p>
+        <p>
+          Here some of the academical projects and acheivements I accomplished.
+        </p>
       </div>
       <div className="project">
         <div className="project_content">
@@ -20,9 +22,8 @@ function Adproject() {
             includes more than 50 pages and sub-pages and is compatible with
             both computer and mobile users. I managed to complete it in less
             than 2 months with my spare time out of school, and now it has been
-            deployed as the official website for TEC (homepage as shown in Fig.
-            1). I have also received an appreciation letter from the Chair of
-            TEC (see Fig. 2).
+            deployed as the official website for TEC. I have also received an
+            appreciation letter from the Chair of TEC.
           </p>
         </div>
         <div className="project_image">
