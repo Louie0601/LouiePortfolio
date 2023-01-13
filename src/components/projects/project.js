@@ -9,7 +9,7 @@ function Project() {
         <p>
           Over the past few years, I have undertaken many projects of a wide
           range of varieties, which have led to many achievements and awards.
-          Here are some example projects I have worked on:
+          Here are some example projects I have worked on.
         </p>
       </div>
       <div className="project-container">
@@ -22,10 +22,7 @@ function Project() {
         </div>
         <div className="project-container_box2">
           <h2>Social Projects</h2>
-          <p>
-            Here are some projects I completed using my social and volunteering
-            skills.
-          </p>
+          <p>Here are some projects I completed using my social skills.</p>
           <div className="project-cta">
             <a href="#soproject">See Social Projects</a>
           </div>

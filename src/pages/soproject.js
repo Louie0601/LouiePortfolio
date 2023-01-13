@@ -8,7 +8,7 @@ function Soproject() {
     <div className="innerProject section__padding" id="soproject">
       <div className="innerProject-title">
         <h1>Social projects and acheivements</h1>
-        <p>Here some of the Social projects and acheivements I acheived</p>
+        <p>Here some of the Social projects and acheivements I accomplished.</p>
       </div>
       <div className="project">
         <div className="project_content">
@@ -28,12 +28,17 @@ function Soproject() {
       </div>
       <div className="project">
         <div className="project_content">
-          <h2>The UKMT math challenge – gold and kangaroo qualification</h2>
+          <h2>‘Train the Trainer’ course</h2>
           <p>
-            In year 8, I attended the UKMT math challenge. Although the teacher
-            did not give up any prior notice for revision, I still managed to
-            answer every single question, and eventually achieved gold and a
-            Kangaroo challenge qualification.
+            During my winter break, I spent a week attending the ‘Train the
+            Trainer’ course on volunteering and leadership. Over the week, I
+            gained a lot of knowledge, and my favourite part of the course was
+            when the organizers invited a guest speaker to talk about how
+            leadership and volunteering can be presented in real life. The
+            speaker provided us with information on his personal life. After the
+            week, we were required to create a presentation for the rest of the
+            group. It all went quite successfully, and I have learnt a lot about
+            leadership and volunteering.
           </p>
         </div>
         <div className="project_image">
