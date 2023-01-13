@@ -64,7 +64,7 @@
   cursor: pointer;
 }
 
-.navbar-logo button {
+.navbar-logo a {
   flex: 0.6;
   width: 100%;
   min-height: 45px;

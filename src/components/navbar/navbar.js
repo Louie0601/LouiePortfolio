@@ -2,10 +2,8 @@ import { useState } from "react";
 import "./navbar.css";
 import logo from "../../images/logo.svg";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import { useNavigate } from "react-router-dom";
 
 function Navbar() {
-  let navigate = useNavigate();
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="navbar">
@@ -15,55 +13,26 @@ function Navbar() {
         </div>
         <div className="navbar-links_container">
           <p>
-            <a
-              href="#home"
-              onClick={() => {
-                navigate("/#home");
-              }}
-            >
-              Home
-            </a>
+            <a href="#home">Home</a>
           </p>
           <p>
-            <a
-              href="#about"
-              onClick={() => {
-                navigate("/#about");
-              }}
-            >
-              About
-            </a>
+            <a href="#about">About</a>
           </p>
           <p>
-            <a
-              href="#projects"
-              onClick={() => {
-                navigate("/#projects");
-              }}
-            >
-              Projects
-            </a>
+            <a href="#projects">Projects</a>
           </p>
           <p>
-            <a
-              href="#contact"
-              onClick={() => {
-                navigate("/#contact");
-              }}
-            >
-              Contact
-            </a>
+            <a href="#contact">Contact</a>
           </p>
         </div>
       </div>
       <div className="navbar-logo">
-        <button
-          onClick={() => {
-            navigate("/pdf");
-          }}
+        <a
+          href="https://docs.google.com/document/d/1XLqpx1gVMceLR0--nCj0e0plVchs0toX/edit?usp=sharing&ouid=110297236554135375360&rtpof=true&sd=true"
+          target="_blank"
         >
-          Portfolio PDF
-        </button>
+          Portfolio
+        </a>
       </div>
       <div className="navbar-menu">
         {toggleMenu ? (
@@ -83,44 +52,16 @@ function Navbar() {
           <div className="navbar-menu_container scale-up-center">
             <div className="navbar-menu_container-links">
               <p>
-                <a
-                  href="#home"
-                  onClick={() => {
-                    navigate("/#home");
-                  }}
-                >
-                  Home
-                </a>
+                <a href="#home">Home</a>
               </p>
               <p>
-                <a
-                  href="#about"
-                  onClick={() => {
-                    navigate("/#about");
-                  }}
-                >
-                  About
-                </a>
+                <a href="#about">About</a>
               </p>
               <p>
-                <a
-                  href="#projects"
-                  onClick={() => {
-                    navigate("/#projects");
-                  }}
-                >
-                  Projects
-                </a>
+                <a href="#projects">Projects</a>
               </p>
               <p>
-                <a
-                  href="#contact"
-                  onClick={() => {
-                    navigate("/#contact");
-                  }}
-                >
-                  Contact
-                </a>
+                <a href="#contact">Contact</a>
               </p>
             </div>
           </div>
